@@ -32,6 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             if(window.innerWidth <= 600) {
                 mobileMenu.classList.remove('show');
+                document.body.style.overflow = 'visible';
             } 
 
             // AMBIL DATA BUTTON
